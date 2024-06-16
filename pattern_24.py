@@ -1,3 +1,12 @@
+# Enter the number: 7
+#    *   
+#   * *  
+#  *   * 
+# *     *
+#  *   * 
+#   * *  
+#    * 
+
 def pattern(no):
     for i in range(1,((no+1)//2)+1):
         print(" "*((no//2)-(i-1)),end="")
